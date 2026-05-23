@@ -48,11 +48,11 @@ flutter:
   # adding or updating assets for this project.
   plugin:
     platforms:
-      android:
-        package: net.jonhanson.flutter_native_splash
-        pluginClass: FlutterNativeSplashPlugin
-      ios:
-        pluginClass: FlutterNativeSplashPlugin
       web:
         pluginClass: FlutterNativeSplashWeb
         fileName: flutter_native_splash_web.dart
+
+platforms:
+  android:
+  ios:
+  web:
